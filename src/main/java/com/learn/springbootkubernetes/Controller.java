@@ -35,7 +35,7 @@ public class Controller {
         return "Hello Spring-Boot app successfully deployed and running on Minishift |"
             + exampleProperty1 + "|" + exampleProperty2
             + "|||" + property1 + "|" + property2 + "|" + property3
-            + "|||" + myConfig.getProperty1()
+            + "|||" + myConfig.getMessage()
             ;
     }
 }
